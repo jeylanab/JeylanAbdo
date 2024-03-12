@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { navLinks } from './constant/words'
-import { CgMenuRound } from "react-icons/cg";
+import { TiThMenu } from "react-icons/ti";
 
 const Navbar = () => {
+             
+           const [menuItem , setMenuItem] = useState({
+            items: ''
+           })
+           
+           const handleMenu = () => {
+               
+           } 
+
   return (
     <section className='navbar'>
        <div className=" lg:flex hidden nav_container bg-slate-200 flex flex-1 justify-between items-center m-20">
@@ -30,9 +39,9 @@ const Navbar = () => {
 
               </div>
               <div>
+              
+                    <TiThMenu />      
                 
-                 gfdgdg
-                  
               </div>
          
         </div>
