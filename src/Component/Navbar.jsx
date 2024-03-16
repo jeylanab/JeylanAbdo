@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <section className='navbar'>
-       <div className=" lg:flex hidden nav_container bg-slate-200 flex flex-1 justify-between items-center m-20">
+       <div className=" lg:flex hidden nav_container  flex flex-1 justify-between items-center m-20">
         <div>
           <h1 className=' text-3xl font-extrabold text-amber-400 font-poppins'>JEY<span className='text-black font-serif'>LAN</span> </h1>
         </div>
